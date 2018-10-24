@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Favicon Sizes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="msapplication-TileImage" content="/images/mstile-144.png"/>
+    <meta name="msapplication-TileColor" content="#00C8FF"/>
+    <meta name="msapplication-config" content="browserconfig.xml" />
+
+    <link rel="icon" sizes="192x192" type="image/png" href="/images/192.png"/>
+    <link rel="icon" sizes="64x64" type="image/png" href="/images/64.png"/>
+    <link rel="icon" sizes="32x32" type="image/png" href="/images/32.png"/>
+    <link rel="icon" sizes="16x16" type="image/png" href="/images/16.png"/>
+
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/images/180.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/152.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/120.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/76.png"/>
+    <link rel="apple-touch-icon-precomposed" href="/images/57.png"/>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 22px;
+        }
+
+        main {
+            width: 768px;
+            margin: 100px auto;
+        }
+
+        .mark-mstile {
+            background-color: #00C8FF;
+        }
+
+        .mark-apple {
+            background-color: #00FFC0;
+        }
+
+        .mark-icon {
+            background-color: #FFE000;
+        }
+
+        .mark-favicon-ico {
+            background-color: #9D63BF;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Favicon Sizes</h1>
+        <p>Load this site to see what size favicon your device is using in different places.</p>
+        <ul>
+            <li><mark class="mark-mstile">Blue</mark> icons are <code>msapplication-TileImage</code> PNGs</li>
+            <li><mark class="mark-apple">Green</mark> icons are <code>apple-touch-precomposed</code> PNGs</li>
+            <li><mark class="mark-icon">Yellow</mark> icons are <code>icon</code> PNGs</li>
+            <li><mark class="mark-favicon-ico">Purple</mark> icons come from <em>favicon.ico</em></li>
+        </ul>
+        <p>The size is specified on each icon.</p>
+    </main>
+</body>
+</html>
